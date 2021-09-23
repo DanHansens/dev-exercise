@@ -1,5 +1,6 @@
 require 'test/unit'
 require_relative 'word_finder'
+require 'memory_profiler'
 
 class WordFinderTest < Test::Unit::TestCase
   def test_model_exists
